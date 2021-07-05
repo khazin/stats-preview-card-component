@@ -43,7 +43,7 @@
   height: 187px;
   background-image: url("../images/image-header-mobile.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
 
   border-top-left-radius: 6px;
@@ -130,8 +130,6 @@
     width: 1045px;
     height: 56vh;
 
-    border-radius: 6px;
-
     display: flex;
     flex-direction: row-reverse;
   }
@@ -139,21 +137,12 @@
     width: calc(1045px / 2);
     height: 100%;
     background-image: url("../images/image-header-desktop.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
+ 
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
   }
   .image::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(170, 92, 219, 0.801);
+    
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
   }
@@ -161,10 +150,7 @@
   .info {
     width: calc(1045px / 2);
     height: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
 
     padding: 0 99px 0 72px;
   }
@@ -174,19 +160,7 @@
     text-align: initial;
   }
 
-  .heading {
-    color: var(--white);
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-  }
-
-  .paragraph {
-    color: var(--slightly-transparent-white);
-    font-weight: 400;
-    font-family: "Lexend Deca", sans-serif;
-  }
-
-  .cta .heading {
+   .cta .heading {
     font-size: 34px;
     margin-bottom: 22px;
   }
@@ -204,12 +178,9 @@
   }
   .stat .heading {
     font-size: 22px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
   }
   .stat .paragraph {
     font-size: 12px;
-    text-transform: uppercase;
   }
 }
 
