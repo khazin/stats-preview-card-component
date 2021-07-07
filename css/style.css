@@ -138,11 +138,13 @@
     height: 100%;
     background-image: url("../images/image-header-desktop.jpg");
  
+    border-top-left-radius: 0px;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
   }
   .image::before {
     
+    border-top-left-radius: 0px;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
   }
