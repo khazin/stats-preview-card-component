@@ -8,6 +8,8 @@
   --white: hsl(0, 0%, 100%); /*main heading, stats*/
   --slightly-transparent-white: hsla(0, 0%, 100%, 0.6); /*stat headings*/
   --slightly-transparent-white-2: hsla(0, 0%, 100%, 0.75); /*main paragraph*/
+  --inter-font: "Inter", sans-serif;
+  --lexend-font: "Inter", sans-serif;
 }
 
 * {
@@ -15,7 +17,6 @@
   padding: 0;
   margin: 0;
   font-size: 15px;
-  font-family: "Lexend Deca", sans-serif;
 }
 
 .container {
@@ -56,8 +57,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(170, 92, 219, 0.801);
-
+  background-color: rgba(122, 47, 168, 0.5);
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
@@ -80,14 +80,14 @@
 
 .heading {
   color: var(--white);
-  font-family: "Inter", sans-serif;
+  font-family: var(--inter-font);
   font-weight: 700;
 }
 
 .paragraph {
   color: var(--slightly-transparent-white);
   font-weight: 400;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: var(--lexend-font);
 }
 
 .cta .heading {

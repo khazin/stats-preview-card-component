@@ -20,7 +20,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### The challenge
 
 - Need to build responsive layout for mobile and desktop device
-- Getting the image overlay effect accurate
 - Figuring out the dimensions and font sizes
 
 ### Screenshot
@@ -70,7 +69,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Continued development
 
-- Getting the image overlay effect as accurate
 - Getting the width, height and fonts as accurate
 
 ### Useful resources
