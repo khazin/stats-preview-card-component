@@ -24,8 +24,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-![](screenshot/mobile.jpg)
-![](screenshot/desktop.jpg)
+![](screenshot/mobile.png)
+![](screenshot/desktop.png)
 
 
 ### Links

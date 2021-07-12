@@ -1,0 +1,22 @@
+{
+  "name": "stats-preview-card-component",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khazin/stats-preview-card-component.git"
+  },
+  "author": "khazin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khazin/stats-preview-card-component/issues"
+  },
+  "homepage": "https://github.com/khazin/stats-preview-card-component#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
