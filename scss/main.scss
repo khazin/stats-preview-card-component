@@ -22,7 +22,6 @@ GLOBAL STYLES
   font-size: 62.5%;
 }
 
-
 /************
 MOBILE LAYOUT
 *************/
@@ -145,68 +144,20 @@ MOBILE LAYOUT
   }
 }
 
-
 /************
 TABLET LAYOUT
 *************/
 @media screen and (min-width: 768px) {
-/*card background styles*/
+  /*card background styles*/
   .card {
-    width: 67.73%;
-    height: 81.5vh;
-
-    border-radius: 6px;
-
-    position: relative;
-  }
-
-/*card image styles*/
-  .image {
-    height: 50%;
-    background-image: url("../images/image-header-desktop.jpg");
-  }
-
-/*card content styles*/
-  .info {
-    height: calc(100% - 50%);
-    padding: 3.4rem 9rem;
-  }
-
-/*card call to action styles*/
-  .cta {
-    & .heading {
-      margin-bottom: 2rem;
-      line-height: 3rem;
-    }
-    & .paragraph {
-      line-height: 2rem;
-      margin-bottom: 2rem;
-    }
-  }
-
-/*card statistics styles*/
-  .stat {
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-}
-
-/************
-DESKTOP LAYOUT
-*************/
-@media screen and (min-width: 1366px) {
-/*card background styles*/
-  .card {
-    width: 68%;
-    height: 56vh;
+    width: 65%;
+    height: 52vh;
 
     display: flex;
     flex-direction: row-reverse;
-
   }
 
-/*card image styles*/
+  /*card image styles*/
   .image {
     width: 48.5%;
 
@@ -222,7 +173,7 @@ DESKTOP LAYOUT
     }
   }
 
-/*card content styles*/
+  /*card content styles*/
   .info {
     position: relative;
     width: 51.5%;
@@ -231,7 +182,7 @@ DESKTOP LAYOUT
     justify-content: space-evenly;
     align-items: flex-start;
 
-    padding: 0 10.9rem 0 6.8rem;
+    padding: 0 3rem 0 2.8rem;
   }
 
   .heading,
@@ -239,7 +190,53 @@ DESKTOP LAYOUT
     text-align: initial;
   }
 
-/*card call to action styles*/
+  /*card call to action styles*/
+  .cta {
+    & .heading {
+      font-size: 2.2rem;
+      margin-bottom: 1.6rem;
+      line-height: 2.8rem;
+    }
+    & .paragraph {
+      font-size: 1.1rem;
+      line-height: 1.8rem;
+    }
+  }
+
+  /*card statistics styles*/
+  .stat {
+    height: initial;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    // transform: translateY(0.5rem);
+
+    & .heading {
+      font-size: 2rem;
+      margin-bottom: 0.3rem;
+    }
+    & .paragraph {
+      letter-spacing: 0rem;
+    }
+  }
+}
+
+/************
+DESKTOP LAYOUT
+*************/
+@media screen and (min-width: 1366px) {
+  /*card background styles*/
+  .card {
+    width: 68%;
+    height: 56vh;
+  }
+
+  /*card content styles*/
+  .info {
+    padding: 0 10.9rem 0 6.8rem;
+  }
+
+  /*card call to action styles*/
   .cta {
     & .heading {
       font-size: 3.4rem;
@@ -248,18 +245,12 @@ DESKTOP LAYOUT
     }
     & .paragraph {
       font-size: 1.4rem;
-      line-height: 24px;
+      line-height: 2.4rem;
     }
   }
 
-/*card statistics styles*/
+  /*card statistics styles*/
   .stat {
-    height: initial;
-    width: 90%;
-    flex-direction: row;
-    justify-content: space-between;
-    transform: translateY(0.5rem);
-
     & .heading {
       font-size: 2.2rem;
       margin-bottom: 0.8rem;
