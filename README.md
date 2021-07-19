@@ -10,7 +10,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -19,8 +18,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### The challenge
 
-- Need to build responsive layout for mobile and desktop device
-- Figuring out the dimensions and font sizes
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
 
 ### Screenshot
 
@@ -40,36 +40,13 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-
-### What I learned
-
-```css
-.container {
-  width: 100vw;
-  /*mobile*/
-  min-width: 375px;
-}
-.image::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(170, 92, 219, 0.801);
-}
-@media screen and (min-width: 1400px) {
-  .container {
-    max-width: 100vw;
-  }
-}
-```
 
 ### Continued development
 
 - Getting the width, height and fonts as accurate
+- write better codes
+- implement best practice
 
 ### Useful resources
 
